@@ -9,8 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
-    },
+  "supportsTablet": true,
+  "bundleIdentifier": "com.lpjgdgwm.kaimono",
+  "infoPlist": {
+    "ITSAppUsesNonExemptEncryption": false
+  },
+  "entitlements": {
+    "com.apple.developer.game-center": false
+  }
+},
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
@@ -43,6 +50,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "559964a8-7c90-4952-ab0e-520366a26331"
+      }
     }
   }
 }
